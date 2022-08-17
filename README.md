@@ -85,7 +85,7 @@ Imagine that we deployed a Goblin to our cluster. The role of the Goblin is simp
 The Goblin will be our Custom Resource Definition which will destroy pods during runtime. We'll now use Kubebuilder to generate the boilerplate for our Goblin (don't forget to `go mod init` first):
 
     # Run go mod init if you are outside of your $GOPATH
-    go mod init gitlab.erm.fathom5.work/erm/goblin
+    go mod init github.com/FATHOM5/goblin
 
     # Initialize Kubebuilder project
     kubebuilder init --domain fathom5.co --owner "Fathom5"
